@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
    
@@ -62,6 +62,7 @@ header {
     background-color: #2fe4de;
     color: #fff;
     padding: 10px 0;
+    font-size: 25px;
     
 }
 
@@ -240,14 +241,14 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #6d8299;
 }
 
 
 /* Estilos del footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #dbd5d5;
+    color: #1d1c1c;
     padding: 20px 0;
     text-align: center;
 }
@@ -267,12 +268,14 @@ footer {
 }
 
 .enlaces a {
-    color: #fff;
+    color: #1d1c1c;
     text-decoration: none;
 }
 
 .redes-sociales a {
     margin: 0 10px;
+    color: #ff6600;
+    font-size: 30px;
 }
 
-/* Estilos para imágenes de redes sociales (debes personalizar esto) */
+
