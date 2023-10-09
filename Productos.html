@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Shop</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/inicio.html">Inicio</a></li>
+                <li><a href="/Productos.html">Productos</a></li>
+                <li><a href="/login.html">Login</a></li>
+              
+            </ul>
+        </nav>
+    </header>
+
+    <section class="productos">
+        <div class="categoria">
+            <h1>Accesorios</h1>
+            <div class="accesorios">
+                <div class="tarjeta">
+                    <img src="/imagenes/accesorios/anillos.jpg" alt="Producto 1">
+                    <h2>Anillo</h2>
+                    <p>Precio: $50.000</p>
+                    <a href="/detallesProducto.html">Ver Detalles</a>
+                </div>
+            
+                <div class="tarjeta">
+                    <img src="/imagenes/accesorios/collares.jpg" alt="Producto 2">
+                    <h2>Collares</h2>
+                    <p>Precio: $20.000</p>
+                    <a href="/detallesProducto.html">Ver Detalles</a>
+                </div>
+            
+                <div class="tarjeta">
+                    <img src="/imagenes/accesorios/pulsera.jpg" alt="Producto 3">
+                    <h2>Pulsera</h2>
+                    <p>Precio: $15.000</p>
+                    <a href="/detallesProducto.html">Ver Detalles</a>
+                </div>
+            
+                <div class="tarjeta">
+                    <img src="/imagenes/accesorios/reloj.jpg" alt="Producto 4">
+                    <h2>Reloj</h2>
+                    <p>Precio: $150.000</p>
+                    <a href="/detallesProducto.html">Ver Detalles</a>
+                </div>
+            
+                <div class="tarjeta">
+                    <img src="/imagenes/accesorios/gafas.jpg" alt="Producto 5">
+                    <h2>Gafas</h2>
+                    <p>Precio: $72.000</p>
+                    <a href="/detallesProducto.html">Ver Detalles</a>
+                </div>
+            </div>
+        </div>    
+            <div class="categoria">
+                <h1>Tecnologia</h1>
+                <div class="tecnologia">
+                    <div class="tarjeta">
+                        <img src="/imagenes/tecnologia/descarga (1).jpg" alt="Producto 1">
+                        <h2>Impresora</h2>
+                        <p>Precio: $750.000</p>
+                        <a href="#" onclick="mostrarDetalles('impresora')">Ver Detalles</a>
+                        <div id="impresora-detalles" style="display: none;">
+                            <p>Descripción: Descripción de la impresora</p>
+                            <p>Cantidad disponible: 5 unidades</p>
+                            <p>En promoción: No</p>
+                        </div>
+                    </div>
+                        
+                    <div class="tarjeta">
+                        <img src="/imagenes/tecnologia/images.jpg" alt="Producto 1">
+                        <h2>PC Escritorio</h2>
+                        <p>Precio: $2.000.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                
+                    <div class="tarjeta">
+                        <img src="/imagenes/tecnologia/iphones-7479304_1280.jpg" alt="Producto 1">
+                        <h2>Iphone</h2>
+                        <p>Precio: $4.550.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                
+                    <div class="tarjeta">
+                        <img src="/imagenes/tecnologia/mobile-2262928_1280.jpg" alt="Producto 1">
+                        <h2>OVO</h2>
+                        <p>Precio: $650.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                
+                    <div class="tarjeta">
+                        <img src="/imagenes/tecnologia/descarga.jpg" alt="Producto 1">
+                        <h2>Portatil</h2>
+                        <p>Precio: $2.550.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                          
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h1>Herramientas</h1>
+                <div class="herramientas">
+                    <div class="tarjeta">
+                        <img src="/imagenes/herramientas/istockphoto-178836803-612x612.jpg" alt="Producto 1">
+                        <h2>Lijadora</h2>
+                        <p>Precio: $125.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/herramientas/pliers-3492537_1280.jpg" alt="Producto 1">
+                        <h2>Alicates</h2>
+                        <p>Precio: $55.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/herramientas/pulidora.jpg" alt="Producto 1">
+                        <h2>Pulidora</h2>
+                        <p>Precio: $550.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                   
+                    <div class="tarjeta">
+                        <img src="/imagenes/herramientas/soldering-iron-1038540_1280.jpg" alt="Producto 1">
+                        <h2>Soldador</h2>
+                        <p>Precio: $150.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/herramientas/taladro inalambrico.jpg" alt="Producto 1">
+                        <h2>Taladro Inalambrico</h2>
+                        <p>Precio: $350.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h1>Ropa</h1>
+                <div class="ropa">
+                    <div class="tarjeta">
+                        <img src="/imagenes/ropa/buso.jpg" alt="Producto 1">
+                        <h2>Buso</h2>
+                        <p>Precio: $150.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="/imagenes/ropa/como-exhibir-ropa-para-vender-1200x676.jpg" alt="Producto 1">
+                        <h2>Vestidos coleccion 2023</h2>
+                        <p>Precio: $500.499</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                
+                    <div class="tarjeta">
+                        <img src="/imagenes/ropa/images (1).jpg" alt="Producto 1">
+                        <h2>Buso Dama</h2>
+                        <p>Precio: $250.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/ropa/images.jpg" alt="Producto 1">
+                        <h2>Verano </h2>
+                        <p>Precio: $155.500</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/ropa/vestido.jpg" alt="Producto 1">
+                        <h2>Vestido Italic</h2>
+                        <p>Precio: $350.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+
+                </div>
+            </div>
+            
+            
+            <div class="categoria">
+                <h1>Alimentos</h1>
+                <div class="alimentos">
+                    <div class="tarjeta">
+                        <img src="/imagenes/alimentos/almond-5120350_1280.jpg" alt="Producto 1">
+                        <h2>Almendras</h2>
+                        <p>Precio: $13.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/alimentos/cherries-5360265_1280.jpg" alt="Producto 1">
+                        <h2>Cerezas</h2>
+                        <p>Precio: $25.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/alimentos/ginger-5108742_1280.jpg" alt="Producto 1">
+                        <h2>Jengibre</h2>
+                        <p>Precio: $3.500</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a></div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/alimentos/tomatoes-7433786_1280.jpg" alt="Producto 1">
+                        <h2>Tomates</h2>
+                        <p>Precio: $5.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a></div>
+                    
+                    <div class="tarjeta">
+                        <img src="/imagenes/alimentos/vegetable-2924245_1280.jpg" alt="Producto 1">
+                        <h2>Lechuga Romana</h2>
+                        <p>Precio: $12.000</p>
+                        <a href="/detallesProducto.html">Ver Detalles</a>
+                    </div>
+                
+                
+                </div>
+            </div>
+        
+    </section>
+    
+
+    <footer>
+        <div class="contacto">
+            <p>Dirección: 27-65 Calle Principal, Valledupar</p>
+            <p>Correo Electrónico: info@smartshop.com</p>
+            <p>Teléfono: 3146382668</p>
+        </div>
+        <div class="enlaces">
+            <ul>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos de Servicio</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="redes-sociales">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script src="js/detallesProducto.js"></script>
+</body>
+</html>
