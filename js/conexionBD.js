@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // URL de conexión a tu base de datos MongoDB
-const mongoURI = 'mongodb://localhost:27017/superMArket';
+const mongoURI = 'mongodb://localhost:27017/SMART-SHOP';
 
 // Conexión a la base de datos
 mongoose.connect(mongoURI, {
